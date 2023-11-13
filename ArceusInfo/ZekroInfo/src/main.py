@@ -266,6 +266,6 @@ async def infopokemon(interaction: discord.Interaction, nome_pokemon: str, forma
 async def helparceus(interaction: discord.Interaction):   
     await interaction.response.send_message("Thank you for using ArceusInfo! This bot is based upon PokèAPI database. If any pokèmon is missing from this list, it's their fault! (Im joking. I love you guys. Your API is fantastic. I just don't know how to code properly.)\nIts usage is pretty simple: /infopokemon [pokemon-name] will give you all the info you might need on your pokèmon adventures.\nBeware: Some pokèmon names have special formats, such as Zygarde, all megas and gigamax have different name formats (For example, MegaRayquaza is listed as rayquaza-mega, and so on). Since i'm too lazy to catch each exception, feel free to use the wiki (lol).\nEnjoy!")
 
-token = "MTE3MTA4OTM2MTU5MzQ1MDU0Nw.GrmsUX.BKRFs7ZNVjlkiDZo4U1AbUq3DhpJLz2vl9hIXA"
+
 
 bot.run(token)
